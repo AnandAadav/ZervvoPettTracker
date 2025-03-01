@@ -22,8 +22,8 @@ Requirements
   
 Installation
 
-1. Clone the repository: git clone https://github.com/your-repo/zervvo-pet-tracker.git
-2. cd zervvo-pet-tracker
+1. Clone the repository: git clone [https://github.com/your-repo/zervvo-pet-tracker.git](https://github.com/AnandAadav/ZervvoPettTracker)
+2. cd ZervvoPettTracker
 3. Open the project in Xcode: open ZervvoPetTracker.xcodeproj
 4. Install dependencies using CocoaPods: pod install Open the .xcworkspace file instead of .xcodeproj after running this.
 5. Add Firebase Configuration:
@@ -39,27 +39,6 @@ Running the App
 1. Select a simulator or connected iOS device in Xcode.
 2. Click Run (⌘ + R) to build and launch the app.
    
-Project Structure
-
-Zervvo Pet Tracker
-
-│── Views
-│   ├── AuthenticationView.swift  # Login/Register UI
-│   ├── MainView.swift            # Tab-based navigation
-│   ├── ProfileView.swift         # User profile screen
-│   ├── AddPetView.swift          # Report missing pet
-│   ├── PetListingView.swift      # List of missing pets
-│   ├── PetDetailView.swift       # Detailed pet info with map
-│── ViewModels
-│   ├── AuthenticationViewModel.swift # Handles user authentication
-│   ├── PetListingViewModel.swift      # Fetch and filter missing pets
-│── Models
-│   ├── Pet.swift  # Defines the Pet model
-│── Resources
-│   ├── GoogleService-Info.plist  # Firebase config (not included in repo)
-│── ZervvoPetTrackerApp.swift  # App entry point
-
-
 Notes
 
 * Ensure location services are enabled for accurate reporting.
